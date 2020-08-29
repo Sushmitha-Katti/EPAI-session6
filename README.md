@@ -20,9 +20,7 @@ This function creates all 52 cards from vals and suits using lambda and map func
 
 ```python
 def create_deck_cards_single_expression():
-    cards = []
-    list(map(lambda x: list(map(lambda y: cards.append((x,y)), suits)),vals))
-    return cards
+    return list(card for new_suit in map(lambda one_suit: list(zip(vals, [one_suit] * len(vals))), suits) for card in new_suit)
 ```
 
 ### **2. create_deck_cards_normal_function**
