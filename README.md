@@ -40,102 +40,103 @@ def create_deck_cards_normal_function():
 ### **3. play_poker_game**
 This function evaluates which player has won poker game.
 
-<p align = "center">Rules</p>
+### **Rules**
 
    1. Royal Flush :
 
-    A, K, Q, J, 10, all the same suit for 5 cards. A, K, Q, J, all the same suit for 4 cards. A, K, Q, all the same suit for 3 cards.
+A, K, Q, J, 10, all the same suit for 5 cards. A, K, Q, J, all the same suit for 4 cards. A, K, Q, all the same suit for 3 cards.
 
    2. Straight flush :
 
-    Cards in a sequence, all in the same suit.
+Cards in a sequence, all in the same suit.
 
    3. Four Of A Kind:
 
-    Four cards of the same rank. This is not applicable to set of 3 cards.
+Four cards of the same rank. This is not applicable to set of 3 cards.
 
-    4. Full house :
+   4. Full house :
 
-    Three of a kind with a pair. This is not applicable to set of 3 or 4 cards.
+Three of a kind with a pair. This is not applicable to set of 3 or 4 cards.
 
-    5. Flush :
+   5. Flush :
 
-    Any cards of the same suit, but not in a sequence.
+Any cards of the same suit, but not in a sequence.
 
-    6. Straight :
+   6. Straight :
 
-    Cards in a sequence, but not of the same suit.
+Cards in a sequence, but not of the same suit.
 
-    7. Three Of A Kind :
+   7. Three Of A Kind :
 
-    Three cards of the same rank.
+Three cards of the same rank.
 
-    8. Two Pair :
+   8. Two Pair :
 
-    Two different pairs. This is not applicable to set of 3 cards.
+Two different pairs. This is not applicable to set of 3 cards.
 
-    9. One Pair :
+   9. One Pair :
 
-    Two cards of the same rank.
+Two cards of the same rank.
 
-    10. High Card :
+   10. High Card :
 
-    When you haven’t made any of the hands above, the highest card from both set is compared.
+When you haven’t made any of the hands above, the highest card from both set is compared.
 
-    11. deck_cards_using_single_expression :
+   11. deck_cards_using_single_expression :
 
-    function creates 52 cards in a deck with the help of lambda, zip and map functions
+function creates 52 cards in a deck with the help of lambda, zip and map functions
 
-    12. deck_cards_using_normal_function :
+   12. deck_cards_using_normal_function :
 
-    function creates 52 cards in a deck with the normal function without using lambda, zip and map functions
+function creates 52 cards in a deck with the normal function without using lambda, zip and map functions
 
-    13. play_poker_game :
+   13. play_poker_game :
 
-    function evaluates which player has won poker game
+function evaluates which player has won poker game
 
-    14. setValues :
-    stores number rank for each value of a card
+   14. setValues :
 
-    15. isRoyalFlush() :
+stores number rank for each value of a card
 
-    checks if it a royal flush
+   15. isRoyalFlush() :
 
-    16. isStraightFlush() :
+checks if it a royal flush
 
-    checks if it is a striaght flush
+   16. isStraightFlush() :
 
-    17. isFourOfAKind():
+checks if it is a striaght flush
 
-    checks if it is has four of a kind
+   17. isFourOfAKind():
 
-    18. isFullHouse():
+checks if it is has four of a kind
 
-    checks if it is a full house
+   18. isFullHouse():
 
-    19. isFlush():
+checks if it is a full house
 
-    checks if it is a flush
+   19. isFlush():
 
-    20. isStraight():
+checks if it is a flush
 
-    checks if it is a straight
+   20. isStraight():
 
-    21. isThreeOfAKind():
+checks if it is a straight
 
-    checks if it has three of a kind
+   21. isThreeOfAKind():
 
-    22. isTwoPair():
+checks if it has three of a kind
 
-    checks if it has two pairs
+   22. isTwoPair():
 
-    23. isOnePair():
+checks if it has two pairs
 
-    checks if it has one pair
+   23. isOnePair():
 
-    24. check_hand_score():
+checks if it has one pair
 
-    checks which hand is applicable and returns score for that hand
+   24. check_hand_score():
+
+checks which hand is applicable and returns score for that hand
     
 
 
