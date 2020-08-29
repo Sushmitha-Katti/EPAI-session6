@@ -37,7 +37,106 @@ def create_deck_cards_normal_function():
             cards.append((val, suit))
     return cards
 ```
-### **3. ____**
+### **3. play_poker_game**
+This function evaluates which player has won poker game.
+
+<p align = "center">Rules</p>
+
+   1. Royal Flush :
+
+    A, K, Q, J, 10, all the same suit for 5 cards. A, K, Q, J, all the same suit for 4 cards. A, K, Q, all the same suit for 3 cards.
+
+   2. Straight flush :
+
+    Cards in a sequence, all in the same suit.
+
+   3. Four Of A Kind:
+
+    Four cards of the same rank. This is not applicable to set of 3 cards.
+
+    4. Full house :
+
+    Three of a kind with a pair. This is not applicable to set of 3 or 4 cards.
+
+    5. Flush :
+
+    Any cards of the same suit, but not in a sequence.
+
+    6. Straight :
+
+    Cards in a sequence, but not of the same suit.
+
+    7. Three Of A Kind :
+
+    Three cards of the same rank.
+
+    8. Two Pair :
+
+    Two different pairs. This is not applicable to set of 3 cards.
+
+    9. One Pair :
+
+    Two cards of the same rank.
+
+    10. High Card :
+
+    When you haven’t made any of the hands above, the highest card from both set is compared.
+
+    11. deck_cards_using_single_expression :
+
+    function creates 52 cards in a deck with the help of lambda, zip and map functions
+
+    12. deck_cards_using_normal_function :
+
+    function creates 52 cards in a deck with the normal function without using lambda, zip and map functions
+
+    13. play_poker_game :
+
+    function evaluates which player has won poker game
+
+    14. setValues :
+    stores number rank for each value of a card
+
+    15. isRoyalFlush() :
+
+    checks if it a royal flush
+
+    16. isStraightFlush() :
+
+    checks if it is a striaght flush
+
+    17. isFourOfAKind():
+
+    checks if it is has four of a kind
+
+    18. isFullHouse():
+
+    checks if it is a full house
+
+    19. isFlush():
+
+    checks if it is a flush
+
+    20. isStraight():
+
+    checks if it is a straight
+
+    21. isThreeOfAKind():
+
+    checks if it has three of a kind
+
+    22. isTwoPair():
+
+    checks if it has two pairs
+
+    23. isOnePair():
+
+    checks if it has one pair
+
+    24. check_hand_score():
+
+    checks which hand is applicable and returns score for that hand
+    
 
 
 
@@ -60,7 +159,30 @@ def create_deck_cards_normal_function():
 15. test_create_deck_cards_normal_function_total_cards : check for total no of cards
 16. test_create_deck_cards_normal_function_compare_cards : compare the result with card combination
 17. test_create_deck_cards_normal_function_invalid_input :checks for invalid input
-18.
-19.
-20.
+18. test_map_used / test_lambda_used / test_zip_used : tests if map, lambda and zip have been used or not
+19. test_play_poker_game_invalid_length_input : 
+checks if invalid set of cards other than 3, 4 or 5 have been given as input
+20. test_play_poker_game_length_mismatch : both set of cards given as input doesnt match length
+21. test_play_poker_game_Royal_Flush / test_play_poker_game_Royal_Flush_4cards / test_play_poker_game_Royal_Flush_3cards : 
+Checks if Royal Flush is identified by game for set of 5, 4, 3 cards
+22. test_play_poker_game_Straight_Flush / test_play_poker_game_Straight_Flush_4cards / test_play_poker_game_Straight_Flush_3cards : 
+Checks if Straight Flush is identified by game for set of 5, 4, 3 cards
+23. test_play_poker_game_Four_Of_A_Kind / test_play_poker_game_Four_Of_A_Kind_4cards : 
+Checks if Four of a Kind is indentified by game for set of 5, 4 cards
+24. test_play_poker_game_Full_House : 
+Checks if Full House is identified by game for set of 5 cards
+25. test_play_poker_game_Flush / test_play_poker_game_Flush_4cards / test_play_poker_game_Flush_3cards : 
+Checks if Flush is identified by game for a set of 5, 4, 3 cards
+26. test_play_poker_game_Straight / test_play_poker_game_Straight_4cards / test_play_poker_game_Straight_3cards :
+Checks if Straight is identified by game for a set of 5, 4, 3 cards
+27. test_play_poker_game_Three_Of_A_Kind / test_play_poker_game_Three_Of_A_Kind_4cards / test_play_poker_game_Three_Of_A_Kind_3cards :
+Checks if Three of a kind is identified by game for a set of 5, 4, 3 cards
+28. test_play_poker_game_Two_Pair / test_play_poker_game_Two_Pair_4cards :
+Checks if two pairs is identified by game for a set of 5, 4 cards
+29. test_play_poker_game_One_Pair / test_play_poker_game_One_Pair_4cards / test_play_poker_game_One_Pair_3cards :
+Checks if One pair is identified by game for a set of 5, 4, 3 cards
+30. test_play_poker_game_High_Card / test_play_poker_game_High_Card_4cards / test_play_poker_game_High_Card_3cards : 
+Checks if High Card is identified by game for a set of 5, 4, 3 cards
+31. test_play_poker_game_Draw : 
+Checks if both players have a draw in case both have same high card and no hand
 
